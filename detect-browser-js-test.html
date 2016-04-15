@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detect Browser</title>
+  <script src="detect-browser.js"></script>
+  <script>
+    /*
+     * http://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
+     * https://github.com/gagle/js-ie-version
+     * http://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
+     * */
+    var detectBrowserTest = (function () {
+      return {
+        run: function () {
+          document.open();
+          document.write("<h1>It is '" + detectBrowser.getBrowserInfo() +  "'.</h1>");
+          document.write("<dl>");
+          document.write("<dt>isMobileOrTablet: </dt><dd>" + detectBrowser.isMobileOrTablet + "</dd>");
+          document.write("<dt>isOpera: </dt><dd>" + detectBrowser.isOpera + "</dd>");
+          document.write("<dt>isFirefox: </dt><dd>" + detectBrowser.isFirefox + "</dd>");
+          document.write("<dt>isSafari: </dt><dd>" + detectBrowser.isSafari + "</dd>");
+          document.write("<dt>isEdge: </dt><dd>" + detectBrowser.isEdge + "</dd>");
+          document.write("<dt>isChrome: </dt><dd>" + detectBrowser.isChrome + "</dd>");
+          document.write("<dt>isBlink: </dt><dd>" + detectBrowser.isBlink + "</dd>");
+          document.write("<dt>isIE: </dt><dd>" + detectBrowser.isIE + "</dd>");
+          document.write("<dt>ieVersion: </dt><dd>" + detectBrowser.ieVersion + "</dd>");
+          document.write("<dt>isEmulatedIE: </dt><dd>" + detectBrowser.isEmulatedIE + "</dd>");
+          document.write("</dl>");
+          document.close();
+        }
+      }
+    })();
+    detectBrowserTest.run();
+  </script>
+</head>
+<body>
+
+</body>
+</html>
