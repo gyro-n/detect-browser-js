@@ -1,0 +1,5 @@
+*.iml
+.idea/
+detect-browser.js
+detect-browser-js-test.html
+*.log
