@@ -27,20 +27,20 @@ It was written in pure javascript.
 ## Reference
 #### Properties
 
-`isIE`: returns boolean.
-`ieVersion`: returns IE version if browser is IE.
-`isEmulatedIE`: returns boolean if browser is IE emulated.
-`isEdge`: returns boolean.
-`isOpera`: returns boolean.
-`isFirefox`: returns boolean.
-`isSafari`: returns boolean.
-`isChrome`: returns boolean.
-`isBlink`: returns boolean if browser is Chrome.
-`isMobileOrTablet`: returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.
+* `isIE`: returns boolean.
+* `ieVersion`: returns IE version if browser is IE.
+* `isEmulatedIE`: returns boolean if browser is IE emulated.
+* `isEdge`: returns boolean.
+* `isOpera`: returns boolean.
+* `isFirefox`: returns boolean.
+* `isSafari`: returns boolean.
+* `isChrome`: returns boolean.
+* `isBlink`: returns boolean if browser is Chrome.
+* `isMobileOrTablet`: returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.
 
 #### Methods
-`getName()`: returns browser name.
-`getBrowserInfo()`: returns complex information.
+* `getName()`: returns browser name.
+* `getBrowserInfo()`: returns complex information.
 
 ## Licence
 [MIT](http://opensource.org/licenses/mit-license.php)
