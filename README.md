@@ -17,6 +17,11 @@ If the browser is IE, it can detect IE version and if the browser was simulated.
 
 If the browser is Chrome, it can detect if Chrome uses either Blink as rendering engine or not.
 
+## Installation
+```
+$ bower install detect-browser-js
+```
+
 ## Demo
 [Demo](http://kim-yongjin.github.io/detect-browser-js/detect-browser-js-test.html)
 
