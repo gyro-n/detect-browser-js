@@ -1,22 +1,19 @@
-Detect Browser JS
-====
+# Detect Browser JS
 
-Overview
+'Detect Browser JS' is a browser detector which detects each browser by a unique object it contains.
 
-## Description
-You can know what is this browser.
-It uses unique object, which each browser has, for detecting browser.
 For example, The Chrome browser has an object named 'chrome', so this library can know if it is either chrome or not by using this object.
-It can detect browser below.
 
-* IE6-11
+Detectable browser.
+
+* IE 6-11
 * Edge
 * Opera 8.0+
 * Firefox 1.0+
 * Safari 3+
 * Chrome 1+
 
-If the browser is IE, it can detect IE version and the browser was simulated.
+If the browser is IE, it can detect IE version and if the browser was simulated.
 
 If the browser is Chrome, it can detect if Chrome uses either Blink as rendering engine or not.
 
@@ -25,23 +22,25 @@ If the browser is Chrome, it can detect if Chrome uses either Blink as rendering
 
 ## Requirement
 There is no requirement.
-It was wrote by pure javascript.
+It was written in pure javascript.
 
-## Usage
-It has a some properties and methods below.
+## Reference
+#### Properties
 
-* detectBrowser.isIE: it returns boolean.
-* detectBrowser.ieVersion: it returns IE version if browser is IE.
-* detectBrowser.isEmulatedIE: it returns boolean if browser is IE.
-* detectBrowser.isEdge: it returns boolean.
-* detectBrowser.isOpera: it returns boolean.
-* detectBrowser.isFirefox: it returns boolean.
-* detectBrowser.isSafari: it returns boolean.
-* detectBrowser.isChrome: it returns boolean.
-* detectBrowser.isBlink: it returns boolean if browser is Chrome.
-* detectBrowser.isMobileOrTablet: it returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.
-* detectBrowser.getName(): it returns browser name.
-* detectBrowser.getBrowserInfo(): it returns complex information.
+`isIE`: returns boolean.
+`ieVersion`: returns IE version if browser is IE.
+`isEmulatedIE`: returns boolean if browser is IE emulated.
+`isEdge`: returns boolean.
+`isOpera`: returns boolean.
+`isFirefox`: returns boolean.
+`isSafari`: returns boolean.
+`isChrome`: returns boolean.
+`isBlink`: returns boolean if browser is Chrome.
+`isMobileOrTablet`: returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.
+
+#### Methods
+`getName()`: returns browser name.
+`getBrowserInfo()`: returns complex information.
 
 ## Licence
 [MIT](http://opensource.org/licenses/mit-license.php)
