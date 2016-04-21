@@ -1,0 +1,12 @@
+{
+  "name": "Detect Browser JS",
+  "version": "1.0.0",
+  "main": "detect-browser.js",
+  "ignore": [
+    "node_modules",
+    "components",
+    "*.iml"
+  ],
+  "dependencies": {
+  }
+}
