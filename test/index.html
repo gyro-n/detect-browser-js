@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>detect-browser-js Test</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css"/>
+  <script src="../detect-browser.js"></script>
+  <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/should/should.min.js"></script>
+  <script>mocha.setup('bdd')</script>
+</head>
+<body>
+<div id="mocha"></div>
+<script>
+  /*global describe, it */
+  'use strict';
+  (function () {
+    describe('Give it some context', function () {
+      describe('maybe a bit more context here', function () {
+        it('should run here few assertions', function () {
+          should(true).be.exactly(true);
+        });
+      });
+    });
+  })();
+</script>
+
+<script>
+//  mocha.checkLeaks();
+//  mocha.globals(['jQuery']);
+  mocha.run();
+</script>
+</body>
+</html>
