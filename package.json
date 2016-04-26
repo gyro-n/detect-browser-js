@@ -1,0 +1,37 @@
+{
+  "name": "detect-browser-js",
+  "version": "1.0.0",
+  "description": "'Detect Browser JS' is a browser detector which detects each browser by a unique object it contains.",
+  "main": "detect-browser.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.2",
+    "karma-safari-launcher": "^0.1.1",
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kim-YongJin/detect-browser-js.git"
+  },
+  "keywords": [
+    "browser",
+    "detect"
+  ],
+  "author": "YongJin Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kim-YongJin/detect-browser-js/issues"
+  },
+  "homepage": "https://github.com/Kim-YongJin/detect-browser-js#readme"
+}
