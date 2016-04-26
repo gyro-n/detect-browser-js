@@ -1,10 +1,126 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title>Detect Browser JS</title>
-</head>
-<body>
-Detect Browser JS
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Detect-browser-js by Kim-YongJin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Detect-browser-js</h1>
+      <h2 class="project-tagline">Browser detector by unique object in each browser</h2>
+      <a href="https://github.com/Kim-YongJin/detect-browser-js" class="btn">View on GitHub</a>
+      <a href="https://github.com/Kim-YongJin/detect-browser-js/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Kim-YongJin/detect-browser-js/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="detect-browser-js" class="anchor" href="#detect-browser-js" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Detect Browser JS</h1>
+
+<p>'Detect Browser JS' is a browser detector which detects each browser by a unique object it contains.</p>
+
+<p>For example, The Chrome browser has an object named 'chrome', so this library can know if it is either chrome or not by using this object.</p>
+
+<p>Detectable browser.</p>
+
+<ul>
+<li>IE 6-11</li>
+<li>Edge</li>
+<li>Opera 8.0+</li>
+<li>Firefox 1.0+</li>
+<li>Safari 3+</li>
+<li>Chrome 1+</li>
+</ul>
+
+<p>If the browser is IE, it can detect IE version and if the browser was simulated.</p>
+
+<p>If the browser is Chrome, it can detect if Chrome uses either Blink as rendering engine or not.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<pre><code>$ bower install detect-browser-js
+</code></pre>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+
+<p><a href="http://kim-yongjin.github.io/detect-browser-js/detect-browser-js-test.html">Demo</a></p>
+
+<h2>
+<a id="requirement" class="anchor" href="#requirement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirement</h2>
+
+<p>There is no requirement.
+It was written in pure javascript.</p>
+
+<h2>
+<a id="reference" class="anchor" href="#reference" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reference</h2>
+
+<h4>
+<a id="properties" class="anchor" href="#properties" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Properties</h4>
+
+<ul>
+<li>
+<code>isIE</code>: returns boolean.</li>
+<li>
+<code>ieVersion</code>: returns IE version if browser is IE.</li>
+<li>
+<code>isEmulatedIE</code>: returns boolean if browser is IE emulated.</li>
+<li>
+<code>isEdge</code>: returns boolean.</li>
+<li>
+<code>isOpera</code>: returns boolean.</li>
+<li>
+<code>isFirefox</code>: returns boolean.</li>
+<li>
+<code>isSafari</code>: returns boolean.</li>
+<li>
+<code>isChrome</code>: returns boolean.</li>
+<li>
+<code>isBlink</code>: returns boolean if browser is Chrome.</li>
+<li>
+<code>isMobileOrTablet</code>: returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.</li>
+</ul>
+
+<h4>
+<a id="methods" class="anchor" href="#methods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Methods</h4>
+
+<ul>
+<li>
+<code>getName()</code>: returns browser name.</li>
+<li>
+<code>getBrowserInfo()</code>: returns complex information.</li>
+</ul>
+
+<h2>
+<a id="licence" class="anchor" href="#licence" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Licence</h2>
+
+<p><a href="http://opensource.org/licenses/mit-license.php">MIT</a></p>
+
+<p>Copyright (c) 2016 YongJin Kim</p>
+
+<p>Released under the MIT license</p>
+
+<p><a href="http://opensource.org/licenses/mit-license.php">http://opensource.org/licenses/mit-license.php</a></p>
+
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
+
+<p><a href="https://github.com/Kim-YongJin">YongJin Kim</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Kim-YongJin/detect-browser-js">Detect-browser-js</a> is maintained by <a href="https://github.com/Kim-YongJin">Kim-YongJin</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
 </html>
