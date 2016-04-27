@@ -23,7 +23,7 @@ $ bower install detect-browser-js
 ```
 
 ## Demo
-[Demo](http://kim-yongjin.github.io/detect-browser-js/detect-browser-js-test.html)
+[Demo](http://ubicast.github.io/detect-browser-js/detect-browser-js-test.html)
 
 ## Requirement
 There is no requirement.
