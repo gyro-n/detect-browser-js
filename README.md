@@ -42,6 +42,7 @@ It was written in pure javascript.
 * `isChrome`: returns boolean.
 * `isBlink`: returns boolean if browser is Chrome.
 * `isMobileOrTablet`: returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.
+* `isIOS`: returns boolean.
 
 #### Methods
 * `getName()`: returns browser name.
