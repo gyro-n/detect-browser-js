@@ -73,6 +73,8 @@ var detectBrowser = (function (){
         name = "Blink";
       } else if (this.isSafari) {
         name = "Safari";
+      } else if (this.isIOS) {
+        name = "iOS Browser";
       } else {
         name = "What is this?";
       }
