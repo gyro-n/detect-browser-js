@@ -36,13 +36,13 @@ It was written in pure javascript.
 * `ieVersion`: returns IE version if browser is IE.
 * `isEmulatedIE`: returns boolean if browser is IE emulated.
 * `isEdge`: returns boolean.
-* `isOpera`: returns boolean.
-* `isFirefox`: returns boolean.
-* `isSafari`: returns boolean.
-* `isChrome`: returns boolean.
+* `isOpera`: returns boolean. It will return false when Opera is working in iOS.
+* `isFirefox`: returns boolean. It will return false when Firefox is working in iOS.
+* `isSafari`: returns boolean. It will return false when Safari is working in iOS.
+* `isChrome`: returns boolean. It will return false when Chrome is working in iOS.
 * `isBlink`: returns boolean if browser is Chrome.
 * `isMobileOrTablet`: returns boolean if device is mobile or tablet. In example, it returns false if the device is TV.
-* `isIOS`: returns boolean.
+* `isIOS`: returns boolean. 
 
 #### Methods
 * `getName()`: returns browser name.
